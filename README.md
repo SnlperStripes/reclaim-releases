@@ -47,12 +47,17 @@ The first is sparse preallocation: Steam creates its download targets at full si
 
 Every folder on the volume, sized by what it actually occupies and coloured by the decision it asks of you.
 
+<!-- Non-breaking spaces, because the label column is sized to its content and
+     without them "Orange" wraps under its square while the three shorter names
+     do not. Four rows breaking in three different ways is the whole table's
+     legibility gone for the sake of six characters. -->
+
 | | |
 | --- | --- |
-| 🟩 **Green** | Just do it. Temp files, crash dumps, finished update payloads, interrupted downloads. |
-| 🟨 **Yellow** | Do it, the next load is slower. Package caches, shader caches, browser caches, build output. |
-| 🟧 **Orange** | Yours, your call. Disc images, downloaded installers, backups, exports, mods. Never selected for you. |
-| 🟥 **Red** | Leave alone. System files, projects, saves, credentials, installed software. |
+| 🟩&nbsp;**Green** | Just do it. Temp files, crash dumps, finished update payloads, interrupted downloads. |
+| 🟨&nbsp;**Yellow** | Do it, the next load is slower. Package caches, shader caches, browser caches, build output. |
+| 🟧&nbsp;**Orange** | Yours, your call. Disc images, downloaded installers, backups, exports, mods. Never selected for you. |
+| 🟥&nbsp;**Red** | Leave alone. System files, projects, saves, credentials, installed software. |
 
 Every byte falls into exactly one of these, so the four add up to the whole disk rather than to a list of interesting places.
 
@@ -66,8 +71,8 @@ Latest build on [**Releases**](../../releases/latest). Windows 10 or 11, x64. Fr
 
 | | |
 | --- | --- |
-| **Portable ZIP** | Unpack it and run `reclaim.exe`. Nothing is installed, nothing touches the registry, and deleting the folder removes every trace. Take this one if you would rather not let an unfamiliar program install itself before you have decided whether you trust it. |
-| **MSI installer** | An ordinary Windows install with a Start menu entry. The only one of the two that can update itself. |
+| **Portable&nbsp;ZIP** | Unpack it and run `reclaim.exe`. Nothing is installed, nothing touches the registry, and deleting the folder removes every trace. Take this one if you would rather not let an unfamiliar program install itself before you have decided whether you trust it. |
+| **MSI&nbsp;installer** | An ordinary Windows install with a Start menu entry. The only one of the two that can update itself. |
 
 Run it as administrator if you can. Without those rights it cannot open the file table and falls back to walking directories: identical numbers, minutes instead of seconds.
 
