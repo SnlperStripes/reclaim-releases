@@ -10,9 +10,19 @@ A small, fast disk cleaner for Windows that refuses to lie to you about numbers.
 
 <br>
 
+[![Download](https://img.shields.io/badge/download-latest%20release-4fbbdb?style=for-the-badge&labelColor=0f0f12)](../../releases/latest)
+[![Windows 10 / 11](https://img.shields.io/badge/windows-10%20%2F%2011%20x64-8b8b93?style=for-the-badge&labelColor=0f0f12)](../../releases/latest)
+[![Free for personal use](https://img.shields.io/badge/free-for%20personal%20use-10b981?style=for-the-badge&labelColor=0f0f12)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
+
+<!-- Swap the first badge for these two once a release exists. Until then they
+     render as red "NO RELEASES FOUND", which on a download page reads as the
+     product being broken rather than as the page being early.
+
 [![Latest release](https://img.shields.io/github/v/release/SnlperStripes/reclaim-releases?style=for-the-badge&label=download&color=4fbbdb&labelColor=0f0f12)](../../releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/SnlperStripes/reclaim-releases/total?style=for-the-badge&color=10b981&labelColor=0f0f12)](../../releases)
-[![Windows 10 / 11](https://img.shields.io/badge/windows-10%20%2F%2011%20x64-8b8b93?style=for-the-badge&labelColor=0f0f12)](../../releases/latest)
+-->
+
+
 
 </div>
 
